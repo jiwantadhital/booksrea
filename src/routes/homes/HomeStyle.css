@@ -1,0 +1,273 @@
+.service-grid {
+    background: #fcfcfc;
+    grid-template-columns: 200px 200px 200px;
+}
+
+.service-title h4 {
+    position: relative;
+    display: inline-block;
+}
+
+.service-icon {
+    position: relative;
+}
+
+.service-title p {
+    padding: 0 190px;
+    margin-bottom: 10px;
+}
+
+.about-info-text h2 {
+    margin-bottom: 23px;
+    text-transform: capitalize;
+    font-weight: 700;
+    line-height: .9;
+}
+
+.about-info-text p {
+    padding: 0 100px;
+    font-size: 18px;
+    margin-bottom: 26px;
+    position: relative;
+}
+
+.about-content p {
+    margin-bottom: 0;
+}
+
+.about-info-text a {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.service-icon i {
+    font-size: 40px;
+    color: #e8bc00;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.service-wrap {
+    border-radius: 0.4rem;
+    border: 1px solid #e6e6e6;
+    padding: 50px 30px;
+    position: relative;
+}
+
+.service-wrap p {
+    position: relative;
+}
+
+.service-wrap:hover {
+    border-radius: 0.4rem;
+    background-color: #1F2836;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: local;
+    transition: all .5s;
+}
+
+.service-wrap:hover:before {
+    background: rgba(0, 0, 0, 0.2901960784313726);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0px;
+    content: "";
+    top: 0;
+    opacity: 1;
+}
+
+.service-wrap:hover h4,
+.service-wrap:hover p {
+    color: #fff;
+}
+
+.service-wrap h4 {
+    font-weight: 600;
+    color: #1e2331;
+    margin-bottom: 17px;
+    font-size: 18px;
+    text-transform: capitalize;
+    position: relative;
+}
+
+.service-wrap a {
+    font-size: 14px;
+    font-weight: 600;
+    position: relative;
+}
+
+.service-word {
+    margin-top: 5%;
+}
+
+h1 {
+    color: #1F2836;
+}
+
+
+/* Recommended section */
+
+.theRow {
+    height: 100px;
+    display: flex;
+}
+
+.wrapper {
+    height: 280px;
+    width: 480px;
+    margin: 50px auto;
+    border-radius: 7px 7px 7px 7px;
+    -webkit-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+}
+
+.wrapper:hover {
+    background-color: #1F2836;
+}
+
+.product-img {
+    float: left;
+    height: 280px;
+    width: 230px;
+    background-repeat: no-repeat;
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.product-img img {
+    border-radius: 7px 0 0 7px;
+}
+
+.product-info {
+    float: left;
+    height: 280px;
+    width: 250px;
+    border-radius: 0 7px 10px 7px;
+    background-color: transparent;
+}
+
+.product-info:hover {
+    float: left;
+    height: 280px;
+    width: 230px;
+    border-radius: 0 7px 10px 7px;
+    background-color: #1F2836;
+}
+
+.product-text {
+    height: 300px;
+    width: 230px;
+}
+
+.product-text h1 {
+    margin: 0 0 0 38px;
+    padding-top: 22px;
+    font-size: 34px;
+    color: #474747;
+}
+
+.product-text h1,
+.product-price-btn p {
+    font-family: 'Bentham', serif;
+}
+
+.product-text h2 {
+    margin: 0 0 7px 38px;
+    font-size: 13px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #d2d2d2;
+    letter-spacing: 0.2em;
+}
+
+.read-button {
+    border-radius: 10px;
+    height: 40px;
+    width: 150px;
+    background-color: rgb(31, 40, 54);
+    margin-left: 30px;
+    color: white;
+    align-items: center;
+}
+
+.product-price-btn button:hover {
+    background-color: #79b0a1;
+}
+
+
+/* latest */
+
+.card {
+    width: 15rem;
+    height: 25rem;
+    border: #9b6d93;
+    margin-bottom: 2rem;
+    border-style: solid;
+    padding: 5px;
+    margin-top: 30px;
+    box-shadow: 2px 5px #9b6d93;
+}
+
+.container-fluid {
+    display: grid;
+    grid-template-columns: 260px 260px 260px 260px 260px;
+    grid-template-rows: 450px 450px;
+    justify-content: space-around;
+}
+
+.latest-image {
+    height: 120px;
+}
+
+.card-img-top {
+    height: 160px;
+}
+
+.card:hover {
+    width: 15rem;
+    height: 25rem;
+    background-color: #1e2331;
+    border: #fbf8fb;
+    margin-bottom: 2rem;
+    border-style: solid;
+    padding: 5px;
+    color: white;
+    margin-top: 20px;
+    transition: 0.5s ease-out;
+}
+
+.card-text {
+    font-size: 13px;
+}
+
+.card-title {
+    font-weight: 600;
+    max-lines: 2;
+    width: 210px;
+    text-align: start;
+    overflow: hidden;
+    /* padding-right: 15px; */
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.top h4 {
+    color: blue;
+}
+
+.top h4:hover {
+    color: green;
+    cursor: pointer;
+}

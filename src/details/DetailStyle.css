@@ -1,0 +1,192 @@
+.upper-back {
+    height: 30rem;
+    width: 100%;
+    background-color: black;
+    background-image: url("https://i0.wp.com/doublesama.com/wp-content/uploads/2022/03/Violet-Evergarden-Movie-cover-1.jpg?resize=640%2C905");
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background-size: cover;
+    filter: blur(19px);
+    -webkit-filter: blur(12px); */
+}
+
+.upper-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    /* transform: translate(-0%, -100%); */
+    height: 30rem;
+    width: 100%;
+}
+
+.image-inside {
+    height: 24rem;
+    width: 18rem;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.details {
+    justify-content: start;
+    align-items: start;
+    padding-left: 10px;
+}
+
+.top-titles {
+    display: flex;
+    justify-content: start;
+}
+
+.details h3 {
+    font-weight: bold;
+    color: white;
+}
+
+.rates {
+    display: flex;
+    color: white;
+    justify-content: start;
+}
+
+.gap {
+    width: 50px;
+}
+
+.desc {
+    height: 13rem;
+    width: 35rem;
+    color: white;
+    /* background-color: brown; */
+}
+
+.desc p {
+    font-size: 10px;
+    overflow: hidden;
+    color: white;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 11;
+    -webkit-box-orient: vertical;
+}
+
+.button {
+    border: 2px solid white;
+    padding-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5px;
+    border-radius: 10px;
+    height: 40px;
+    width: 100px;
+    background-color: rgb(41, 38, 75);
+}
+
+.button2 {
+    border: 2px solid white;
+    padding-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5px;
+    border-radius: 10px;
+    height: 40px;
+    width: 160px;
+    background-color: rgb(209, 66, 87);
+}
+
+.button2 i {
+    margin-left: 10px;
+    margin-bottom: 5px;
+    size: 15px;
+    font-size: 15px;
+    color: white;
+}
+
+.button2 i:hover {
+    margin-left: 10px;
+    margin-bottom: 5px;
+    color: rgb(192, 9, 28);
+    font-size: 25px;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: rgb(15, 94, 137);
+    cursor: pointer;
+}
+
+.last-sec {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20%;
+}
+
+
+/* tabs */
+
+.tabs-parent {
+    height: 5rem;
+    width: 100%;
+    /* background-color: brown; */
+}
+
+.gap1 {
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+
+/* chapters */
+
+.chapter-box {
+    width: 100%;
+    /* height: 40rem; */
+    /* background-color: blueviolet; */
+}
+
+.chapter-single {
+    margin-top: 2px;
+    padding-top: 10px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: space-between;
+    height: 3rem;
+    width: 100%;
+    border: 1px solid rgb(157, 155, 155);
+}
+
+.chapter-single:hover {
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+    background-color: rgb(44, 40, 58);
+    color: white;
+    margin-top: 2px;
+    padding-top: 10px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: space-between;
+    height: 3rem;
+    width: 100%;
+    border: 1px solid rgb(157, 155, 155);
+}
+
+.chapter-left {
+    /* padding-top: 10px; */
+    padding-left: 10px;
+    text-align: center;
+    width: 80%;
+    display: flex;
+    justify-content: start;
+}
+
+.chapter-name {
+    width: 60rem;
+}
+
+.chapter-title {
+    width: 20rem;
+}

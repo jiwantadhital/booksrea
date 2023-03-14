@@ -1,0 +1,41 @@
+/* read */
+
+.all-page {
+    padding-bottom: 2%;
+    padding-top: 2%;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(93, 91, 94);
+}
+
+.top-navigation {
+    text-align: center;
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+    height: 4rem;
+    width: 90%;
+    margin-left: 5%;
+    /* margin-top: 2%; */
+    margin-right: 2%;
+    background-color: rgb(255, 255, 255);
+}
+
+.chapter-read {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    padding-left: 2%;
+    padding-right: 2%;
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 2%;
+    margin-right: 2%;
+    background-color: rgb(255, 255, 255);
+}
+
+.top-navigation h6:hover {
+    cursor: pointer;
+    color: rgb(45, 84, 7);
+}
